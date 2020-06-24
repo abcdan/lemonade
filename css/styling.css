@@ -1,0 +1,125 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: var(--background-color);
+}
+
+section#header {
+	height: 100%;
+	background-image: var(--lemon);
+	box-shadow: var(--box-shadow);
+}
+
+.logo-container {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	height: 100%;
+	width: 100%;
+	border-radius: var(--rounding);
+}
+
+.lemonade-card {
+	background-color: #FFF;
+	padding: 2em;
+	width: 80%;
+	max-width: 830px;
+	margin: 2em auto;
+	border-radius: var(--rounding);
+	box-shadow: var(--box-shadow);
+}
+
+h1 {
+	font-size: 48px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+
+ul.links {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	list-style: none;
+	padding: 0;
+}
+
+ul.links li {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 1em;
+	border-radius: var(--rounding);
+	box-shadow: var(--box-shadow);
+	display: block;
+	width: 160px;
+	margin: 3em auto 0 auto;
+	transition-duration: 250ms;
+}
+
+a:hover {
+	box-shadow: none;
+}
+
+a.discord {background-color: var(--discord);}
+a.discord:hover {background-color: var(--discord-dark);}
+a.forums {background-color: var(--forums);}
+a.forums:hover {background-color: var(--forums-dark);}
+a.twitter {background-color: var(--twitter);}
+a.twitter:hover {background-color: var(--twitter-dark);}
+
+.scroll-down-container {
+	width: 100px;
+	height: 150px;
+	margin: 100px auto 0 auto;
+	cursor: pointer;
+}
+
+section#about-us {
+	margin: 8em auto;
+	width: 90%;
+	max-width: 900px;
+}
+
+.about-us-card {
+	background-image: var(--lemon-border);
+	background-size: 100% 100%;
+	padding: 4em 8em;
+	text-align: center;
+	border-radius: var(--rounding);
+	box-shadow: var(--box-shadow);
+}
+
+.about-us-card h1 {
+	color: #5AA02C;
+	margin-bottom: 1em;
+}
+
+.about-us-card p {
+	font-family: "Inter", sans-serif;
+	color: #71C837;
+}
+
+
+
+
+
+
+
